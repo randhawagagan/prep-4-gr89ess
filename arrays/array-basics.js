@@ -5,3 +5,6 @@ st.pop(); //O(1)
 console.log(st)
 st.unshift('d'); //O(n)
 console.log(st)
+
+st.splice(1,1);
+console.log(st)
